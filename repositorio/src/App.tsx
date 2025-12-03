@@ -7,6 +7,8 @@ import {
   GlobalOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
+  CheckCircleOutlined,
+  SwapOutlined
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 
@@ -14,6 +16,8 @@ import { Home } from './components/Home';
 import { PrincipiosREST } from './components/PrincipiosREST';
 import { EndpointsEstrutura } from './components/EndpointsEstrutura';
 import { ProtocoloHTTP } from './components/ProtocoloHTTP';
+import { StatusCodes } from './components/StatusCode';
+import { ComparacaoArquiteturas } from './components/ComparacaoRest';
 
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
@@ -37,10 +41,20 @@ const menuItems: MenuItem[] = [
     label: 'Endpoints e Estrutura',
   },
   {
+    key: 'status-codes',
+    icon: <CheckCircleOutlined />,
+    label: 'Status Codes',
+  },
+  {
     key: 'http',
     icon: <GlobalOutlined />,
     label: 'Protocolo HTTP',
   },
+  {
+    key: 'comparacao',
+    icon: <SwapOutlined />,
+    label: 'Comparação Arquiteturas',
+  }
 ];
 
 function App() {
@@ -61,6 +75,10 @@ function App() {
         return <EndpointsEstrutura />;
       case 'http':
         return <ProtocoloHTTP />;
+      case 'status-codes':
+        return <StatusCodes />;
+      case 'comparacao':
+        return <ComparacaoArquiteturas />;
       default:
         return <Home />;
     }

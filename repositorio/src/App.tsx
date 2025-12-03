@@ -4,6 +4,7 @@ import {
   HomeOutlined,
   BookOutlined,
   ApiOutlined,
+  GlobalOutlined,
   MenuFoldOutlined,
   MenuUnfoldOutlined,
 } from '@ant-design/icons';
@@ -12,6 +13,7 @@ import type { MenuProps } from 'antd';
 import { Home } from './components/Home';
 import { PrincipiosREST } from './components/PrincipiosREST';
 import { EndpointsEstrutura } from './components/EndpointsEstrutura';
+import { ProtocoloHTTP } from './components/ProtocoloHTTP';
 
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
@@ -34,6 +36,11 @@ const menuItems: MenuItem[] = [
     icon: <ApiOutlined />,
     label: 'Endpoints e Estrutura',
   },
+  {
+    key: 'http',
+    icon: <GlobalOutlined />,
+    label: 'Protocolo HTTP',
+  },
 ];
 
 function App() {
@@ -52,6 +59,8 @@ function App() {
         return <PrincipiosREST />;
       case 'endpoints':
         return <EndpointsEstrutura />;
+      case 'http':
+        return <ProtocoloHTTP />;
       default:
         return <Home />;
     }

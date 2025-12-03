@@ -8,6 +8,7 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   CheckCircleOutlined,
+  ExperimentOutlined,
   SwapOutlined
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
@@ -18,6 +19,7 @@ import { EndpointsEstrutura } from './components/EndpointsEstrutura';
 import { ProtocoloHTTP } from './components/ProtocoloHTTP';
 import { StatusCodes } from './components/StatusCode';
 import { ComparacaoArquiteturas } from './components/ComparacaoRest';
+import { CRUDPratico } from './components/CrudCompleto';
 
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
@@ -54,6 +56,11 @@ const menuItems: MenuItem[] = [
     key: 'comparacao',
     icon: <SwapOutlined />,
     label: 'Comparação Arquiteturas',
+  },
+  {
+    key: 'crud-pratico',
+    icon: <ExperimentOutlined />,
+    label: 'CRUD Prático',
   }
 ];
 
@@ -79,6 +86,8 @@ function App() {
         return <StatusCodes />;
       case 'comparacao':
         return <ComparacaoArquiteturas />;
+      case 'crud-pratico':
+        return <CRUDPratico />;
       default:
         return <Home />;
     }

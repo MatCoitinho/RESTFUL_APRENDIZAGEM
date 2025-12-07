@@ -2,6 +2,10 @@
 
 Projeto educacional em React com Ant Design para ensinar conceitos fundamentais de APIs RESTful.
 
+## Plano de Aula
+
+O plano de aula completo está disponível em: [PLANO_DE_AULA.md](./PLANO_DE_AULA.md)
+
 ## Tecnologias
 
 - React 18

@@ -1,0 +1,260 @@
+{
+  "lom": {
+    "general": {
+      "identifier": {
+        "catalog": "URI",
+        "entry": "https://github.com/matheuscoitinho/RESTFUL_APRENDIZAGEM"
+      },
+      "title": {
+        "string": "Guia Interativo de APIs RESTful - Princípios, HTTP e CRUD",
+        "language": "pt-BR"
+      },
+      "language": "pt-BR",
+      "description": {
+        "string": "Objeto de aprendizagem interativo desenvolvido em React e TypeScript para ensinar conceitos fundamentais de APIs RESTful. Aborda os 6 princípios REST, estrutura de endpoints, protocolo HTTP (métodos GET, POST, PUT, DELETE), códigos de status HTTP, comparação entre arquiteturas (REST, GraphQL, SOAP, gRPC) e prática de operações CRUD. Inclui exemplos práticos, quizzes interativos e ambiente de simulação de API.",
+        "language": "pt-BR"
+      },
+      "keyword": [
+        {
+          "string": "REST",
+          "language": "pt-BR"
+        },
+        {
+          "string": "API",
+          "language": "pt-BR"
+        },
+        {
+          "string": "HTTP",
+          "language": "pt-BR"
+        },
+        {
+          "string": "CRUD",
+          "language": "pt-BR"
+        },
+        {
+          "string": "RESTful",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Protocolo HTTP",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Status Codes",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Endpoints",
+          "language": "pt-BR"
+        },
+        {
+          "string": "JSON",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Web Services",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Desenvolvimento Web",
+          "language": "pt-BR"
+        },
+        {
+          "string": "Backend",
+          "language": "pt-BR"
+        }
+      ],
+      "coverage": {
+        "string": "Desenvolvimento Web Back-End, Arquitetura de Software, APIs RESTful, Programação para Internet",
+        "language": "pt-BR"
+      },
+      "structure": "hierarchical",
+      "aggregationLevel": "2"
+    },
+    "lifeCycle": {
+      "version": {
+        "string": "1.0.0",
+        "language": "pt-BR"
+      },
+      "status": "final",
+      "contribute": [
+        {
+          "role": "author",
+          "entity": "Matheus Coitinho",
+          "date": {
+            "dateTime": "2025-01-15",
+            "description": {
+              "string": "Data de criação",
+              "language": "pt-BR"
+            }
+          }
+        },
+        {
+          "role": "author",
+          "entity": "João Victor Bonilha",
+          "date": {
+            "dateTime": "2025-01-15",
+            "description": {
+              "string": "Data de criação",
+              "language": "pt-BR"
+            }
+          }
+        }
+      ]
+    },
+    "technical": {
+      "format": [
+        "text/html",
+        "application/javascript",
+        "application/json",
+        "text/typescript"
+      ],
+      "size": "2048000",
+      "location": "http://localhost:5173",
+      "requirement": [
+        {
+          "orComposite": [
+            {
+              "type": "browser",
+              "name": "any",
+              "minimumVersion": "Chrome 90+, Firefox 88+, Safari 14+, Edge 90+"
+            }
+          ]
+        },
+        {
+          "orComposite": [
+            {
+              "type": "operating system",
+              "name": "multi-os",
+              "minimumVersion": "Windows 10, macOS 10.15, Linux (qualquer distribuição moderna)"
+            }
+          ]
+        }
+      ],
+      "installationRemarks": {
+        "string": "Requer Node.js >= 18.0.0 e npm >= 8.0.0. Instalar dependências com 'npm install' e executar com 'npm run dev'.",
+        "language": "pt-BR"
+      },
+      "otherPlatformRequirements": {
+        "string": "JavaScript habilitado no navegador. Conexão com internet para instalação inicial de dependências.",
+        "language": "pt-BR"
+      },
+      "duration": {
+        "duration": "PT1H40M",
+        "description": {
+          "string": "Tempo estimado para completar todo o conteúdo (100 minutos)",
+          "language": "pt-BR"
+        }
+      }
+    },
+    "educational": {
+      "interactivityType": "mixed",
+      "learningResourceType": [
+        "exercise",
+        "simulation",
+        "questionnaire",
+        "lecture"
+      ],
+      "interactivityLevel": "medium",
+      "semanticDensity": "medium",
+      "intendedEndUserRole": [
+        "learner"
+      ],
+      "context": [
+        "higher education"
+      ],
+      "typicalAgeRange": {
+        "string": "18-30",
+        "language": "pt-BR"
+      },
+      "difficulty": "medium",
+      "typicalLearningTime": {
+        "duration": "PT1H40M",
+        "description": {
+          "string": "100 minutos de aula teórica e prática",
+          "language": "pt-BR"
+        }
+      },
+      "description": {
+        "string": "Objeto de aprendizagem voltado para estudantes de graduação em Ciência da Computação e áreas afins, com nível de dificuldade médio. Combina teoria e prática através de quizzes interativos e simulação de API.",
+        "language": "pt-BR"
+      },
+      "language": "pt-BR"
+    },
+    "rights": {
+      "cost": "no",
+      "copyrightAndOtherRestrictions": "yes",
+      "description": {
+        "string": "Licenciado sob MIT License. Uso livre para fins educacionais e comerciais com atribuição aos autores.",
+        "language": "pt-BR"
+      }
+    },
+    "classification": [
+      {
+        "purpose": "discipline",
+        "taxonPath": [
+          {
+            "source": {
+              "string": "ACM Computing Classification System",
+              "language": "en"
+            },
+            "taxon": [
+              {
+                "id": "D.2.12",
+                "entry": {
+                  "string": "Interoperability",
+                  "language": "en"
+                }
+              },
+              {
+                "id": "H.3.5",
+                "entry": {
+                  "string": "Online Information Services",
+                  "language": "en"
+                }
+              }
+            ]
+          }
+        ],
+        "description": {
+          "string": "Desenvolvimento Web Back-End, APIs RESTful, Programação para Internet",
+          "language": "pt-BR"
+        },
+        "keyword": [
+          {
+            "string": "Ciência da Computação",
+            "language": "pt-BR"
+          },
+          {
+            "string": "Engenharia de Software",
+            "language": "pt-BR"
+          }
+        ]
+      },
+      {
+        "purpose": "educational level",
+        "taxonPath": [
+          {
+            "source": {
+              "string": "Ensino Superior",
+              "language": "pt-BR"
+            },
+            "taxon": [
+              {
+                "id": "graduation",
+                "entry": {
+                  "string": "Graduação",
+                  "language": "pt-BR"
+                }
+              }
+            ]
+          }
+        ],
+        "description": {
+          "string": "Conteúdo destinado a estudantes de graduação em cursos de TI",
+          "language": "pt-BR"
+        }
+      }
+    ]
+  }
+}
